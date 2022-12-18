@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         'obs': (BuildContext context) => const ObsHome(),
         'builder': (BuildContext context) => const GetBuilderHome(),
         'getx': (BuildContext context) => const GetxHome(),
-        'in18': (BuildContext context) => In18Page(),
+        'in18': (BuildContext context) => const In18Page(),
       },
     );
   }
